@@ -1,0 +1,29 @@
+# Exclude the tests directory
+tests/
+
+# Exclude documentation
+docs/
+
+# Exclude local configuration and script files
+*.code-workspace
+*.sh
+*.md
+events.json
+LICENSE
+PROMPT.md
+pytest.ini
+Quickstart.sh
+samconfig.toml
+
+# Exclude virtual environment directories and files
+venv/
+.env
+
+# Exclude build artifacts and cache directories
+__pycache__/
+*.pyc
+.aws-sam/
+.pytest_cache/
+
+# Exclude hidden files and directories (optional)
+.*
